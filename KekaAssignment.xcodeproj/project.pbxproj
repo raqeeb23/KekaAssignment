@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D4F946F2BCF904E00625A2A /* KekaAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F946D2BCF904E00625A2A /* KekaAssignment.xcdatamodeld */; };
 		2D4F94712BCFB23E00625A2A /* NetworkChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F94702BCFB23E00625A2A /* NetworkChecker.swift */; };
 		2D4F94732BCFC41F00625A2A /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F94722BCFC41F00625A2A /* NewsListViewModel.swift */; };
 		2D4F94752BCFC4A300625A2A /* DataStorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4F94742BCFC4A300625A2A /* DataStorer.swift */; };
@@ -20,10 +19,10 @@
 		2D6FC1DC2BCED8DA006250F0 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FC1DB2BCED8DA006250F0 /* NewsListView.swift */; };
 		2D6FC1E02BCF04D7006250F0 /* NewsReponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FC1DF2BCF04D7006250F0 /* NewsReponseModel.swift */; };
 		2D6FC1E22BCF06BA006250F0 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FC1E12BCF06BA006250F0 /* DataFetcher.swift */; };
+		2DE69E1F2BD2B784000DFF03 /* KekaAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DE69E1D2BD2B784000DFF03 /* KekaAssignment.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D4F946E2BCF904E00625A2A /* KekaAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KekaAssignment.xcdatamodel; sourceTree = "<group>"; };
 		2D4F94702BCFB23E00625A2A /* NetworkChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChecker.swift; sourceTree = "<group>"; };
 		2D4F94722BCFC41F00625A2A /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		2D4F94742BCFC4A300625A2A /* DataStorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorer.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		2D6FC1DB2BCED8DA006250F0 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		2D6FC1DF2BCF04D7006250F0 /* NewsReponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsReponseModel.swift; sourceTree = "<group>"; };
 		2D6FC1E12BCF06BA006250F0 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		2DE69E1E2BD2B784000DFF03 /* KekaAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KekaAssignment.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +133,9 @@
 				2D4F947D2BCFC59600625A2A /* ViewModel */,
 				2D4F947C2BCFC56800625A2A /* View */,
 				2D6FC1CB2BCED8AD006250F0 /* KekaAssignmentApp.swift */,
-				2D4F946D2BCF904E00625A2A /* KekaAssignment.xcdatamodeld */,
 				2D6FC1E12BCF06BA006250F0 /* DataFetcher.swift */,
 				2D4F94742BCFC4A300625A2A /* DataStorer.swift */,
+				2DE69E1D2BD2B784000DFF03 /* KekaAssignment.xcdatamodeld */,
 				2D6FC1D12BCED8AF006250F0 /* Assets.xcassets */,
 				2D6FC1D32BCED8AF006250F0 /* Preview Content */,
 			);
@@ -225,9 +225,9 @@
 				2D6FC1DC2BCED8DA006250F0 /* NewsListView.swift in Sources */,
 				2D6FC1CC2BCED8AD006250F0 /* KekaAssignmentApp.swift in Sources */,
 				2D4F94712BCFB23E00625A2A /* NetworkChecker.swift in Sources */,
-				2D4F946F2BCF904E00625A2A /* KekaAssignment.xcdatamodeld in Sources */,
 				2D6FC1E02BCF04D7006250F0 /* NewsReponseModel.swift in Sources */,
 				2D4F94732BCFC41F00625A2A /* NewsListViewModel.swift in Sources */,
+				2DE69E1F2BD2B784000DFF03 /* KekaAssignment.xcdatamodeld in Sources */,
 				2D4F94772BCFC4D300625A2A /* CoreDataManager.swift in Sources */,
 				2D4F947B2BCFC55000625A2A /* APIService.swift in Sources */,
 				2D4F94752BCFC4A300625A2A /* DataStorer.swift in Sources */,
@@ -438,14 +438,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2D4F946D2BCF904E00625A2A /* KekaAssignment.xcdatamodeld */ = {
+		2DE69E1D2BD2B784000DFF03 /* KekaAssignment.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2D4F946E2BCF904E00625A2A /* KekaAssignment.xcdatamodel */,
+				2DE69E1E2BD2B784000DFF03 /* KekaAssignment.xcdatamodel */,
 			);
-			currentVersion = 2D4F946E2BCF904E00625A2A /* KekaAssignment.xcdatamodel */;
-			name = KekaAssignment.xcdatamodeld;
-			path = /Users/rakib/Desktop/KekaAssignment/KekaAssignment/KekaAssignment.xcdatamodeld;
+			currentVersion = 2DE69E1E2BD2B784000DFF03 /* KekaAssignment.xcdatamodel */;
+			path = KekaAssignment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
